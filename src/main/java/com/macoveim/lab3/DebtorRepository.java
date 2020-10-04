@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public class DebtorRepository {
+	int id;
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
